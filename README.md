@@ -8,7 +8,7 @@ Differential Gene Expression using RNA-Seq (Workflow)
 conda install -c anaconda git wget --yes
 
 # Clone this repository with folder structure into the current working folder
-git clone https://github.com/twbattaglia/RNAseq-workflow new_workflow
+git clone https://github.com/HaileyHryPark/RNAseq-workflow.git
 
 # Change directory into the new folder
 cd new_workflow
