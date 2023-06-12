@@ -1,4 +1,4 @@
-Differential Gene Expression using RNA-Seq (Workflow)
+RNA-Seq Workflow
 ================
 
 ##### Original Repository Forked from Thomas W. Battaglia (https://github.com/twbattaglia/RNAseq-workflow)
