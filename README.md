@@ -25,12 +25,13 @@ cd new_workflow
   │   └── input/                    <- Location of input  RNAseq data
   │  
   │   └── output/                   <- Data generated during processing steps
-  │       ├── 1_initial_qc/         <- Main alignment files for each sample
-  │       ├── 2_trimmed_output/     <- Log from running STAR alignment step
-  │       ├── 3_aligned_sequences/  <- Main alignment files for each sample
+  │       ├── 1_initial_qc/         
+  │       ├── 2_trimmed_output/     
+  │       ├── 3_final_qc/           
+  │       ├── 4_aligned_sequences/  <- Main alignment files for each sample
   │           ├── aligned_bam/      <- Alignment files generated from STAR (.BAM)
   │           ├── aligned_logs/     <- Log from running STAR alignment step
-  │       ├── 4_final_counts/       <- Summarized gene counts across all samples
+  │       ├── 5_final_counts/       <- Summarized gene counts across all samples
   │  
   │   └── star_index/               <-  Folder to store the indexed genome files from STAR 
 ```
