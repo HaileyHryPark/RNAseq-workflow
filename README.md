@@ -29,8 +29,6 @@ cd new_workflow
   │       ├── 2_trimmed_output/     
   │       ├── 3_final_qc/           
   │       ├── 4_aligned_sequences/  <- Main alignment files for each sample
-  │           ├── aligned_bam/      <- Alignment files generated from STAR (.BAM)
-  │           ├── aligned_logs/     <- Log from running STAR alignment step
   │       ├── 5_final_counts/       <- Summarized gene counts across all samples
   │  
   │   └── star_index/               <-  Folder to store the indexed genome files from STAR 
